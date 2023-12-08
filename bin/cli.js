@@ -14,7 +14,7 @@ const runCommand = (command) => {
 }
 
 const repoName = process.argv[2]
-const gitCheckoutCommand = ` git clone --depth 1 https://github.com/llucasgomes/simple-template-nodejs ${repoName}`
+const gitCheckoutCommand = ` git clone --depth 1 https://github.com/llucasgomes/template-nextjs ${repoName}`
 const installDepsCommand = `cd ${repoName} && yarn install`
 
 console.log(`Clonando o repositorio com o nome ${repoName}`)
